@@ -1,4 +1,4 @@
-package tasks.kontrolnaya_12_11_2022.second_task;
+package kontrolniye_na_seminare.kontr_12_11_2022;
 
 public class Fact {
     public int getNumber() {

@@ -19,7 +19,6 @@ public class Fact {
         for (int i = 2; i < number; i += 2) {
             even_fact *= i;
         }
-        this.even_fact = even_fact;
     }
 
     private int even_fact = 1;
@@ -32,7 +31,6 @@ public class Fact {
         for (int i = 1; i < number; i += 2) {
             odd_fact *= i;
         }
-        this.odd_fact = odd_fact;
     }
 
     private int odd_fact = 1;

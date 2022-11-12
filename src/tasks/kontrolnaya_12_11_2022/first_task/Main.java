@@ -29,9 +29,9 @@ public class Main {
             System.out.println(object.getPerimeter());
 
             System.out.println("явл€етс€ ли треугольник пр€моугольным?");
-            object.setFlag(object.isFlag());
-            String str_flag = new String();
-            if (object.isFlag() == true) {
+            object.setFlag();
+            String str_flag;
+            if (object.isFlag()) {
                 str_flag = "явл€етс€";
             } else {
                 str_flag = "Ќе €вл€етс€";

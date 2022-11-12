@@ -1,8 +1,8 @@
-package com.test.idea;
+package kontrolniye_na_seminare.other_kontrs;
 
 import java.util.Scanner;
 
-public class All extends Worker{
+public class All extends Worker {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

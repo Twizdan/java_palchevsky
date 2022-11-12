@@ -1,4 +1,4 @@
-package praktikum1.kontrolnaya_polsem;
+package tasks.kontrolnaya_polsem;
 
 public class Worker extends Student{
     private Integer salary = 15600;

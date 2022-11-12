@@ -1,4 +1,4 @@
-package praktikum1.kontrolnaya_polsem;
+package tasks.kontrolnaya_polsem;
 
 import java.util.Scanner;
 

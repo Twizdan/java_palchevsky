@@ -1,4 +1,4 @@
-package praktikum1.kontrolnaya_12_11_2022.first_task;
+package tasks.kontrolnaya_12_11_2022.first_task;
 
 import java.util.Scanner;
 

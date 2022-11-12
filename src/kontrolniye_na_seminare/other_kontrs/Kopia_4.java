@@ -1,4 +1,4 @@
-package com.test.idea;
+package kontrolniye_na_seminare.other_kontrs;
 
 abstract class Student {
     private String name = "Your name";

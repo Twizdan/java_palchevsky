@@ -1,6 +1,8 @@
-package com.test.idea;
+package kontrolniye_na_seminare.other_kontrs;
 
-public class Worker extends Student{
+import kontrolniye_na_seminare.other_kontrs.Student;
+
+public class Worker extends Student {
     private int salary = 1000;
 
     public int getSalary(){

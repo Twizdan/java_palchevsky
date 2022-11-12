@@ -1,4 +1,4 @@
-package test;
+package tasks.other_kontolnys;
 
 
 import java.util.Scanner;

@@ -1,6 +1,5 @@
-package praktikum1;
+package tasks.other_kontolnys;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayPI {

@@ -1,4 +1,4 @@
-package com.test.idea;
+package tasks.other_kontolnys;
 
 import com.sun.source.tree.StatementTree;
 

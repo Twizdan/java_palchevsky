@@ -1,4 +1,4 @@
-package praktikum1;
+package tasks.other_kontolnys;
 
 import java.util.Scanner;
 

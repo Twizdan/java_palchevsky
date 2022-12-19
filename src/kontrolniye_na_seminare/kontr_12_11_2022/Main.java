@@ -1,13 +1,9 @@
 package kontrolniye_na_seminare.kontr_12_11_2022;
-
-import tasks.kontrolnaya_12_11_2022.first_task.Straight;
-import tasks.kontrolnaya_12_11_2022.second_task.Fact;
-
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        tasks.kontrolnaya_12_11_2022.first_task.Straight object = new Straight();
+        Straight object = new Straight();
         Scanner sc1 = new Scanner(System.in);
         System.out.println("Введите первую сторону");
         object.setFirst_side(sc1.nextFloat());
@@ -17,6 +13,7 @@ public class Main {
 
         System.out.println("Введите третью переменную");
         object.setThird_side(sc1.nextFloat());
+
         float hypotenuse = Math.max(Math.max(object.getFirst_side(), object.getSecond_side()), object.getThird_side());
         float summary = object.getThird_side() + object.getSecond_side() + object.getFirst_side();
         float catet_1 = Math.min(Math.min(object.getFirst_side(), object.getSecond_side()), object.getThird_side());
@@ -45,13 +42,11 @@ public class Main {
         }
 
         System.out.println("Введите число для вычисление факториала");
-        tasks.kontrolnaya_12_11_2022.second_task.Fact num = new Fact();
-        num.setNumber(sc1.nextInt());
-        num.setEven_fact(num.getNumber());
-        num.setOdd_fact(num.getNumber());
+        Fact num = new Fact();
+        int number = sc1.nextInt();
         System.out.println("Четный факториал");
-        System.out.println(num.getEven_fact());
+        System.out.println(num.setEven_fact(number));
         System.out.println("Нечетный факториал");
-        System.out.println(num.getOdd_fact());
+        System.out.println(num.setOdd_fact(number));
     }
 }
